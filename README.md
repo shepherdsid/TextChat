@@ -3,12 +3,13 @@
 TextChat is a compact Kotlin Android demo chat app demonstrating modern Android practices: Jetpack Compose + Material 3 UI, MVVM architecture, and Kotlin Coroutines/Flows for async state. Messages are stored in-memory; sending a message displays it aligned to the right and a simulated reply appears after a 5-second delay aligned to the left. The project is test-first with unit tests for core logic.
 
 ## Key points
-- **Simple, focused demo: send a message (appears on the right) and receive a simulated reply after 5s (appears on the left).
-- **UI: Jetpack Compose + Material 3, light/dark support.
-- **Architecture: MVVM with Coroutines and Flows.
-- **Persistence: in-memory (sufficient for the exercise).
-- **Testing: test-first approach with unit tests (JUnit, Robolectric, Mockito).
-- **Build: Gradle-based Android project.
+
+- Simple, focused demo: send a message (appears on the right) and receive a simulated reply after 5s (appears on the left).
+- UI: Jetpack Compose + Material 3, light/dark support.
+- Architecture: MVVM with Coroutines and Flows.
+- Persistence: in-memory (sufficient for the exercise).
+- Testing: test-first approach with unit tests (JUnit, Robolectric, Mockito).
+- Build: Gradle-based Android project.
 
 ## Features
 
