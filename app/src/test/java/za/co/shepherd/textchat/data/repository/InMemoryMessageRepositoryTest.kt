@@ -49,10 +49,10 @@ class InMemoryMessageRepositoryTest {
         assertEquals(1, messages.size)
 
 
-        val deleteresult = repository.deleteMessage(message)
+        val deleteResult = repository.deleteMessage(message)
         val messagesAfterDelete = repository.messages().first()
 
-        assertTrue(deleteresult is ResultWrapper.Success)
+        assertTrue(deleteResult is ResultWrapper.Success)
         assertEquals(0, messagesAfterDelete.size)
     }
 
