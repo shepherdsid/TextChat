@@ -36,9 +36,18 @@ TextChat is a compact Kotlin Android demo chat app demonstrating modern Android 
     - `domain/`: Use cases encapsulating business logic.
     - `util/`: Utility classes and helpers.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shepherdsid/TextChat.git
+## Getting started
+
+Prerequisites:
+- Android Studio (recommended)
+- JDK (as required by Android Studio)
+- Android SDK / emulator or device
+
+Clone the repository:
+```bash
+git clone https://github.com/shepherdsid/TextChat.git
+cd TextChat
+```
 
 ## Open the project in Android Studio (recommended)
 * On macOS: open Android Studio, choose File > Open... and select the project's build.gradle or the project root folder.
